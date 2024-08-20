@@ -35,9 +35,9 @@ mysql < employees_partitioned.sql
 Testing the Installation
 After installation, you can test the setup by running one of the following commands:
 
-bash
-
-mysql -t < test_employees_md5.sql
+   ```bash
+   mysql -t < test_employees_md5.sql
+   
 
 Example Output
 bash
