@@ -6,8 +6,7 @@ This repository contains 30 unique SQL queries designed to interact with an empl
 
 The queries in this repository are designed to work with the sample employee database provided by [DataCharmer](https://github.com/datacharmer/test_db). You can find the database schema and data here:
 
-[Employee Sa![employees](https://github.com/user-attachments/assets/5fbc7875-69d0-4327-bd6b-5dcb54edfe25)
-mple Database - GitHub](https://github.com/datacharmer/test_db/tree/master)
+[Employee Sample Database - GitHub](https://github.com/datacharmer/test_db/tree/master)
 
 ## SQL Questions and Queries
 
@@ -19,5 +18,11 @@ JOIN dept_emp de ON e.emp_no = de.emp_no
 JOIN departments d ON de.dept_no = d.dept_no
 WHERE de.to_date = '9999-01-01';
 
-
-wcwc
+2. Find the titles of employees currently working in the 'Sales' department.
+sql
+Copy code
+SELECT t.title
+FROM employees e
+JOIN dept_emp de ON e.emp_no = de.emp_no
+JOIN departments d ON de.dept_no = d.dept_no
+JOIN titles t ON e.emp
