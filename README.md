@@ -8,6 +8,10 @@ The queries in this repository are designed to work with the sample employee dat
 
 [Employee Sample Database - GitHub](https://github.com/datacharmer/test_db/tree/master)
 
+
+<img width="400" alt="employees-schema" src="https://github.com/user-attachments/assets/62dbbd70-a954-40ca-98df-bc6ee508c1e9">
+
+
 ## SQL Questions and Queries
 
 ### 1. List all employees' full names and their current department names.
