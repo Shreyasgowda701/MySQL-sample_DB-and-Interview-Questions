@@ -25,7 +25,7 @@ WHERE de.to_date = '9999-01-01';
 
 ```
 1. List all employees' full names and their current department names.
-```
+```sql
 
 SELECT e.first_name, e.Last_name, CONCAT(e.first_name, " ", e.last_name) as Full_name ,de.to_date, d.dept_name
 FROM employees  e
@@ -38,7 +38,7 @@ ORDER BY to_date asc;
 
 ```
 2. Find the titles of employees currently working in the 'Sales' department.
-```
+```sql
 SELECT t.title, CONCAT(e.first_name, e.Last_name) as full_name, d.dept_name
 FROM employees e
 JOIN dept_emp de on e.emp_no = de.emp_no
@@ -48,7 +48,7 @@ WHERE d.dept_name = 'Sales'
 and de.to_date = '9999-01-01' and t.to_date = '9999-01-01';
 ```
 3. Retrieve the employee number and salary of the highest-paid employee.
-```
+```sql
 SELECT s.emp_no, s.salary FROM salaries as s WHERE salary = (SELECT MAX(salary) from salaries)
 
 
@@ -61,7 +61,7 @@ SELECT s.emp_no, s.salary from salaries s ORDER BY salary desc LIMIT 1;
 
 ```
 4. List the departments with more than 30000 employees.
-```
+```sql
 SELECT d.dept_name, COUNT(de.emp_no) as total_emp from dept_emp as de
 JOIN departments as d ON de.dept_no = d.dept_no
 GROUP BY de.dept_no
@@ -75,7 +75,7 @@ HAVING COUNT(de.emp_no) > 30000;
 
 ```
 5. Find the average salary for each department.
-```
+```sql
 SELECT d.dept_name,ROUND(AVG(s.salary)) as Avg_salary from departments as d
 JOIN dept_emp as de ON d.dept_no = de.dept_no
 JOIN salaries as s on de.emp_no = s.emp_no
