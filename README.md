@@ -19,7 +19,7 @@ JOIN departments d ON de.dept_no = d.dept_no
 WHERE de.to_date = '9999-01-01';
 
 ```
-###2. Find the titles of employees currently working in the 'Sales' department.
+### 2. Find the titles of employees currently working in the 'Sales' department.
 ```sql
 SELECT t.title, CONCAT(e.first_name, e.Last_name) as full_name, d.dept_name
 FROM employees e
