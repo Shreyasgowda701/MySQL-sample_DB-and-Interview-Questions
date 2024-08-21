@@ -14,4 +14,5 @@ The queries in this repository are designed to work with the sample employee dat
 
 ## Follow SQL Questions and Queries
 
-SQL Questions and Queries 2.md
+[SQL Questions and Queries 2.md
+](https://github.com/Shreyasgowda701/MySQL-sample_DB-and-Interview-Questions/blob/main/SQL%20Questions%20and%20Queries%202.md)
