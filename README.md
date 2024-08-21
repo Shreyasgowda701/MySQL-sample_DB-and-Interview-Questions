@@ -13,3 +13,5 @@ The queries in this repository are designed to work with the sample employee dat
 
 
 ## Follow SQL Questions and Queries
+
+SQL Questions and Queries 2.md
