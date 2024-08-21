@@ -12,7 +12,10 @@ The queries in this repository are designed to work with the sample employee dat
 <img width="400" alt="employees-schema" src="https://github.com/user-attachments/assets/62dbbd70-a954-40ca-98df-bc6ee508c1e9">
 
 
-## Follow SQL Questions and Queries
+## Practice SQL Queries with Sample Database
 
-[SQL Questions and Queries 2.md
-](https://github.com/Shreyasgowda701/MySQL-sample_DB-and-Interview-Questions/blob/main/SQL%20Questions%20and%20Queries%202.md)
+Looking to enhance your SQL skills? Visit the link below to access a comprehensive list of SQL interview questions along with queries, designed to help you practice and master SQL:
+
+[SQL Questions and Queries](https://github.com/Shreyasgowda701/MySQL-sample_DB-and-Interview-Questions/blob/main/SQL%20Questions%20and%20Queries%202.md)
+
+This resource includes a variety of SQL questions that can be practiced using the provided `.md` file. Perfect for preparing for technical interviews or improving your database management skills!
