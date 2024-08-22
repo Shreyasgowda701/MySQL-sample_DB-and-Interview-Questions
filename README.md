@@ -30,10 +30,14 @@ Visit the following link to access all the questions and queries, conveniently o
 
 ### 1. Beginner
 
-[SQL Questions and Queries beginners](https://github.com/Shreyasgowda701/MySQL-sample_DB-and-Interview-Questions/blob/main/Practice%20for%20Beginners/SQL%20Questions%20and%20Queries%201.md)
+[SQL Questions and Queries Beginners](https://github.com/Shreyasgowda701/MySQL-sample_DB-and-Interview-Questions/blob/main/Practice%20for%20Beginners/SQL%20Questions%20and%20Queries%201.md)
 
 ### 2. Intermediate
 
 [SQL Questions and Queries Intermediate](https://github.com/Shreyasgowda701/MySQL-sample_DB-and-Interview-Questions/blob/main/Practice%20for%20Intermediate/SQL%20Questions%20and%20Queries%202.md)
+
+### 3. Advanced
+
+[SQL Questions and Queries Advanced](https://github.com/Shreyasgowda701/MySQL-sample_DB-and-Interview-Questions/blob/main/Practice%20for%20Advance/SQL%20Questions%20and%20Queries%203.md)
 
 You can download the `.md` file from the link and use it to practice SQL queries with a sample database.
